@@ -4,7 +4,7 @@
   "description": "ejercicio de javascript",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "vitest",
     "sass": "sass ./src/sass/styles.scss ./public/styles/styles.css",
     "sass-w": "sass --watch ./src/sass:./public/styles"
   },
@@ -12,5 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "sass": "^1.77.6"
+  },
+  "devDependencies": {
+    "vitest": "^1.6.0"
   }
 }
